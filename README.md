@@ -88,11 +88,17 @@ Type: `string` Default: `'x-oss-process=image/format,webp'`
 
 Prefix query for webp image, aliyun oss by default
 
+### pattern
+
+Type: `RegExp` Default: `/\.(png|jpe?g)/`
+
+Transform rule for image url
+
 ### cssModules
 
 Type: `boolean` Default: `false`
 
-if you have [cssModules] enabled, set to true
+If you have [cssModules] enabled, set to true
 [cssmodules]: https://github.com/webpack-contrib/css-loader#modules
 
 ### ignoreComment
