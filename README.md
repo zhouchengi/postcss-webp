@@ -1,6 +1,6 @@
 # PostCSS Webp
 
-[PostCSS] plugin for add webp prefix to css.
+[PostCSS] plugin for add webp suffix to url of background or background-image in css.
 
 [postcss]: https://github.com/postcss/postcss
 
